@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DB6D59E42A0833BF002BE5D3 /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6D59E32A0833BF002BE5D3 /* LoginPresenter.swift */; };
 		DB80A54B29FE93FD00723325 /* dummy_social_mediaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB80A54A29FE93FD00723325 /* dummy_social_mediaApp.swift */; };
 		DB80A54D29FE93FD00723325 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB80A54C29FE93FD00723325 /* ContentView.swift */; };
 		DB80A54F29FE93FE00723325 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB80A54E29FE93FE00723325 /* Assets.xcassets */; };
@@ -14,6 +15,14 @@
 		DB80A55D29FE93FE00723325 /* dummy_social_mediaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB80A55C29FE93FE00723325 /* dummy_social_mediaTests.swift */; };
 		DB80A56729FE93FE00723325 /* dummy_social_mediaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB80A56629FE93FE00723325 /* dummy_social_mediaUITests.swift */; };
 		DB80A56929FE93FE00723325 /* dummy_social_mediaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB80A56829FE93FE00723325 /* dummy_social_mediaUITestsLaunchTests.swift */; };
+		DB80A57B2A0042F700723325 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB80A57A2A0042F700723325 /* LoginView.swift */; };
+		DB80A57E2A0044C200723325 /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB80A57D2A0044C200723325 /* View+Extension.swift */; };
+		DB80CE4B2A2275C100E51C6C /* LoginInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB80CE4A2A2275C100E51C6C /* LoginInteractor.swift */; };
+		DB80CE4D2A227B5F00E51C6C /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB80CE4C2A227B5F00E51C6C /* Enums.swift */; };
+		DBC89BE92A4861C0002C4618 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC89BE82A4861C0002C4618 /* HomeView.swift */; };
+		DBDAC3E92A084A0A00BB2EBF /* LoginProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDAC3E82A084A0A00BB2EBF /* LoginProtocols.swift */; };
+		DBDAC3EB2A084A6800BB2EBF /* UserEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDAC3EA2A084A6800BB2EBF /* UserEntity.swift */; };
+		DBDAC3ED2A084C3A00BB2EBF /* UserRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDAC3EC2A084C3A00BB2EBF /* UserRouter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DB6D59E32A0833BF002BE5D3 /* LoginPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
 		DB80A54729FE93FD00723325 /* dummy_social-media.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "dummy_social-media.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB80A54A29FE93FD00723325 /* dummy_social_mediaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dummy_social_mediaApp.swift; sourceTree = "<group>"; };
 		DB80A54C29FE93FD00723325 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +55,14 @@
 		DB80A56229FE93FE00723325 /* dummy_social-mediaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "dummy_social-mediaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB80A56629FE93FE00723325 /* dummy_social_mediaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dummy_social_mediaUITests.swift; sourceTree = "<group>"; };
 		DB80A56829FE93FE00723325 /* dummy_social_mediaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dummy_social_mediaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DB80A57A2A0042F700723325 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		DB80A57D2A0044C200723325 /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
+		DB80CE4A2A2275C100E51C6C /* LoginInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInteractor.swift; sourceTree = "<group>"; };
+		DB80CE4C2A227B5F00E51C6C /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		DBC89BE82A4861C0002C4618 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		DBDAC3E82A084A0A00BB2EBF /* LoginProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginProtocols.swift; sourceTree = "<group>"; };
+		DBDAC3EA2A084A6800BB2EBF /* UserEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserEntity.swift; sourceTree = "<group>"; };
+		DBDAC3EC2A084C3A00BB2EBF /* UserRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRouter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +90,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DB664EF42A6084C6006E2471 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				DBDAC3E82A084A0A00BB2EBF /* LoginProtocols.swift */,
+				DBDAC3EC2A084C3A00BB2EBF /* UserRouter.swift */,
+				DBDAC3EA2A084A6800BB2EBF /* UserEntity.swift */,
+				DB6D59E32A0833BF002BE5D3 /* LoginPresenter.swift */,
+				DB80CE4A2A2275C100E51C6C /* LoginInteractor.swift */,
+				DB80A57A2A0042F700723325 /* LoginView.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		DB664EF52A608514006E2471 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				DBC89BE82A4861C0002C4618 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
 		DB80A53E29FE93FD00723325 = {
 			isa = PBXGroup;
 			children = (
@@ -95,6 +134,14 @@
 		DB80A54929FE93FD00723325 /* dummy_social-media */ = {
 			isa = PBXGroup;
 			children = (
+				DB664EF52A608514006E2471 /* Home */,
+				DB664EF42A6084C6006E2471 /* Login */,
+				DB80A57C2A0044A700723325 /* Utils */,
+				DB80A57929FE988900723325 /* Router */,
+				DB80A57829FE987800723325 /* Entity */,
+				DB80A57729FE987100723325 /* Presenter */,
+				DB80A57629FE986400723325 /* Interactor */,
+				DB80A57529FE985500723325 /* View */,
 				DB80A54A29FE93FD00723325 /* dummy_social_mediaApp.swift */,
 				DB80A54C29FE93FD00723325 /* ContentView.swift */,
 				DB80A54E29FE93FE00723325 /* Assets.xcassets */,
@@ -127,6 +174,58 @@
 				DB80A56829FE93FE00723325 /* dummy_social_mediaUITestsLaunchTests.swift */,
 			);
 			path = "dummy_social-mediaUITests";
+			sourceTree = "<group>";
+		};
+		DB80A57529FE985500723325 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DB80A57629FE986400723325 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		DB80A57729FE987100723325 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		DB80A57829FE987800723325 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		DB80A57929FE988900723325 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		DB80A57C2A0044A700723325 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				DB80CE492A22701C00E51C6C /* Protocols */,
+				DB80A57D2A0044C200723325 /* View+Extension.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		DB80CE492A22701C00E51C6C /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				DB80CE4C2A227B5F00E51C6C /* Enums.swift */,
+			);
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +358,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB80A57B2A0042F700723325 /* LoginView.swift in Sources */,
 				DB80A54D29FE93FD00723325 /* ContentView.swift in Sources */,
+				DB80CE4D2A227B5F00E51C6C /* Enums.swift in Sources */,
+				DB6D59E42A0833BF002BE5D3 /* LoginPresenter.swift in Sources */,
+				DBDAC3ED2A084C3A00BB2EBF /* UserRouter.swift in Sources */,
+				DBC89BE92A4861C0002C4618 /* HomeView.swift in Sources */,
+				DBDAC3E92A084A0A00BB2EBF /* LoginProtocols.swift in Sources */,
+				DBDAC3EB2A084A6800BB2EBF /* UserEntity.swift in Sources */,
+				DB80A57E2A0044C200723325 /* View+Extension.swift in Sources */,
 				DB80A54B29FE93FD00723325 /* dummy_social_mediaApp.swift in Sources */,
+				DB80CE4B2A2275C100E51C6C /* LoginInteractor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

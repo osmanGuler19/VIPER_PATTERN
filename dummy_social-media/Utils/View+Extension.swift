@@ -6,15 +6,15 @@
 //
 
 import SwiftUI
+import UIKit
 
-struct View_Extension: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
+func setupNavigationBarAppearanceForLogin(titleColor: UIColor, barColor: UIColor) {
+    let appearance = UINavigationBarAppearance()
+    appearance.configureWithOpaqueBackground()
+    appearance.backgroundColor = barColor
+    appearance.titleTextAttributes = [.foregroundColor: titleColor]
+    UINavigationBar.appearance().standardAppearance = appearance
+    UINavigationBar.appearance().compactAppearance = appearance
+    UINavigationBar.appearance().scrollEdgeAppearance = appearance
 }
 
-struct View_Extension_Previews: PreviewProvider {
-    static var previews: some View {
-        View_Extension()
-    }
-}

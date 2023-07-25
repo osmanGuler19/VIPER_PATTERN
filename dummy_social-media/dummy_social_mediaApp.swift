@@ -11,7 +11,7 @@ import SwiftUI
 struct dummy_social_mediaApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LoginView()
         }
     }
 }
